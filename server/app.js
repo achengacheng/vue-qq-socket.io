@@ -54,4 +54,6 @@ app.get('/', (req, res) => {
   res.send('<h1>hello world</h1>')
 })
 
-http.listen(3000)
+http.listen(3000,()=>{
+  console.log('启动3000成功')
+})
